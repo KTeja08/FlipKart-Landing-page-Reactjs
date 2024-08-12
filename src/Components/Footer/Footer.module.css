@@ -1,0 +1,42 @@
+.footer {
+    background-color: #8f7676;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color:black
+  }
+  
+  .section {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin: 5px 0;
+    color: black;
+  }
+  
+  .section ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footerBottom {
+    border-top: 1px solid #ebe5e5;
+    padding-top: 10px;
+  }
+  

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+ background-color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.search {
+    background-color: #F0F5FF;
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    color: rgb(129, 132, 137);
+}
+
+.search input {
+    outline: none;
+    border: none;
+    width: 600px;
+    margin-left: 10px;
+    background-color: #F0F5FF;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+.searchIcon {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.user2 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.user img {
+    margin-right: 10px;
+}
+
+.cart_logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart_logo img {
+    margin-right: 10px;
+}
+
+.seller {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seller img {
+    margin-right: 10px;
+}
+
+
+.dropDown {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.user2 {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user2:hover {
+    background-color: #2a55e5;
+    color: white;
+}
+
+.user2:hover img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.hoverLogin div:not(:first-child):hover {
+    background-color: rgb(241, 242, 244);
+    cursor: pointer;
+}
+
+.hoverLogin:hover .user2:hover {
+    background-color: #2a55e5;
+    color: white;
+}
+
+
+.hoverLogin {
+    background-color: white;
+    position: absolute;
+    top: 61px;
+    height: 300px;
+    width: 273px;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    display: none;
+    z-index: 5;
+}
+
+.newUser {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.newUser a {
+    text-decoration: none;
+    color: #2a55e5;
+    font-weight: bold;
+}
+
+.f_Item {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    font-weight: 300;
+}
+
+.f_Item img {
+    width: 9%;
+
+}
+
+.f_Item span {
+    margin-left: 5px;
+}
+
+.user:hover .hoverLogin {
+    display: block;
+}
+
+.Fr_Item {
+    background-color: white;
+    position: absolute;
+    margin-left: -200px;
+    padding-top: 5px;
+    top: 62px;
+    height: 170px;
+    width: 240px;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    display: none;
+}
+
+.Fr {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 10px 15px 10px 15px;
+}
+
+.Fr img {
+    width: 8%;
+    margin-right: 12px;
+}
+
+.dots2 {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px solid white;
+    z-index: 5;
+}
+
+.dots2:hover {
+    border: 1px solid lightgray;
+}
+
+.dots:hover .Fr_Item {
+    display: block;
+
+}
+
+.Fr_Item div:hover {
+    background-color: rgb(241, 242, 244);
+    cursor: pointer;
+}
+
+/* Navbar.module.css */
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 8px;
+    margin-right: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .searchButton {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  

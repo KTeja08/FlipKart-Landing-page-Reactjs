@@ -1,0 +1,55 @@
+.main {
+    background-color: white;
+    width: 97%;
+    margin: auto;
+    padding:7px;
+}
+
+.heading {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.f1 div {
+    text-align: center;
+    padding: 25px;
+}
+
+.f1 div p {
+    margin-top: 5px;
+}
+
+.f1 div img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.f1 div :nth-child(2) {
+    font-size: 13px;
+}
+
+.f1 div :nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.f2 {
+    width: 20%;
+    text-align: center;
+}
+
+.f2 img {
+    width: 80%;
+}

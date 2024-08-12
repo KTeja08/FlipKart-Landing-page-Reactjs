@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+.parent {
+    background-color: white;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    width: 97%;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.main div {
+    cursor: pointer;
+    text-align: center;
+}
+
+.main div p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.dropy {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-left: 2px;
+    font-size: 24px;
+}
+
+
+.dropdown {
+    z-index: 5;
+}
+
+.dropdown .menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 150px;
+    display: none;
+    z-index: 5;
+}
+
+.dropdown2 .menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 250px;
+    display: none;
+    z-index: 5;
+}
+
+.dropdown3 .menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 450px;
+    display: none;
+    z-index: 5;
+}
+
+.dropdown4 .menu {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 850px;
+    display: none;
+    z-index: 5;
+}
+
+
+
+.dropdown5 .menu2 {
+    width: 250px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 1170px;
+    display: none;
+    font-size: 13px;
+    z-index: 5;
+}
+
+
+
+.dropdown:hover>.menu {
+    display: block;
+}
+
+.dropdown2:hover>.menu {
+    display: block;
+}
+
+.dropdown3:hover>.menu {
+    display: block;
+}
+
+.dropdown4:hover>.menu {
+    display: block;
+}
+
+.dropdown5:hover>.menu2 {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+li:hover {
+    background-color: rgb(240, 245, 255);
+    font-weight: 500;
+}
+
+
+.mainMenu {
+    width: 50%;
+    height: 100%;
+    font-size: 13px;
+    box-shadow: 0px 0px 10px #ececec;
+}
+
+.innerMenu {
+    width: 48%;
+    height: inherit;
+    position: absolute;
+    right: 10px;
+    margin-top: -10px;
+    top: 20px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.innerMenu {
+    display: none;
+}
+
+li:nth-child(1):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(2):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(3):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(4):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(5):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(6):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(7):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(8):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(9):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(10):hover>.innerMenu {
+    display: block !important;
+}
+
+li:nth-child(11):hover>.innerMenu {
+    display: block !important;
+}
